@@ -7,7 +7,7 @@
 const min = 1;
 const max =6;
 const table =[];
-let message=""
+let message="";
 
 const numPlayer = Math.floor(Math.random() * (max - min + 1) + min);
 const numPc = Math.floor(Math.random() * (max - min + 1) + min);
@@ -22,7 +22,6 @@ if(numPlayer > numPc){
 } else if (numPlayer < numPc){
     message = 'hai perso';
 } else{
-    message = 'pareggio'
+    message = 'pareggio';
 }
 console.log(message);
-
